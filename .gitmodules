@@ -1,3 +1,6 @@
 [submodule "MLSensor"]
 	path = MLSensor
 	url = git://github.com/iccs/MLSensor.git
+[submodule "STARDOM"]
+	path = STARDOM
+	url = git://github.com/iccs/STARDOM.git
