@@ -4,3 +4,6 @@
 [submodule "STARDOM"]
 	path = STARDOM
 	url = git://github.com/iccs/STARDOM.git
+[submodule "CVSAnaly-ALERT-branch"]
+	path = CVSAnaly-ALERT-branch
+	url = git://github.com/libresoft/CVSAnaly-ALERT-branch.git
