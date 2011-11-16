@@ -11,3 +11,6 @@
 [submodule "KESI"]
 	path = KESI
 	url = git://github.com/libresoft/KESI.git
+[submodule "JSI"]
+	path = JSI
+	url = https://github.com/IJS-Alert/ALERT.git
