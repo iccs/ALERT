@@ -1,0 +1,3 @@
+[submodule "MLSensor"]
+	path = MLSensor
+	url = git://github.com/iccs/MLSensor.git
