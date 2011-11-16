@@ -7,3 +7,7 @@
 [submodule "CVSAnaly-ALERT-branch"]
 	path = CVSAnaly-ALERT-branch
 	url = git://github.com/libresoft/CVSAnaly-ALERT-branch.git
+
+[submodule "KESI"]
+	path = KESI
+	url = git://github.com/libresoft/KESI.git
