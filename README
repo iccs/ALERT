@@ -1,0 +1,5 @@
+Please keep the files organized under the following conventions
+
+# Do NOT create folders under this directory
+# The name of the event files should be [component_from]_[component_to]_[eventName].xml ( stardom_metadata_newIdentity.xml)
+
