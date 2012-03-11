@@ -6,9 +6,9 @@
     xmlns:r1="http://www.alert-project.eu/rawevents-mailinglist" 
     xmlns:r2="http://www.alert-project.eu/rawevents-wiki"	
     xmlns:s="http://www.alert-project.eu/strevents-kesi" 
-    xmlns:sm="http://www.alert-project.eu/stardom" 
+    xmlns:sm="http://www.alert-project.eu/stardom"
     xmlns:sc="http://www.alert-project.eu/socrates"
-    xmlns:s1="http://www.alert-project.eu/strevents-keui"
+    xmlns:s1="http://www.alert-project.eu/strevents-keui" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://www.alert-project.eu/alert-root.xsd">
 	<ns1:head>
@@ -21,29 +21,31 @@
 			<ns1:startTime>10010</ns1:startTime>
 			<ns1:endTime>10010</ns1:endTime>
 			<!-- name of event -->
-			<ns1:eventName>issuesRecommended</ns1:eventName>
+			<ns1:eventName>requestDeveloperRecommendation</ns1:eventName>
 			<ns1:eventId>5748</ns1:eventId>
-			<ns1:eventType>Reply</ns1:eventType>
+			<ns1:eventType>Request</ns1:eventType>
 		</ns1:meta>
-        <ns1:eventData>
-            <sc:issues>
+		<ns1:eventData>
+            <sc:recommendDeveloper>
                 <sc:issues>
-                    <sc:id>1010</sc:id>
-                    <o:bug>#owl</o:bug>
+                    <sc:issue>
+                        <sc:id>1010</sc:id>
+                        <o:bug>#owl</o:bug>
+                    </sc:issue>
+                    <sc:issue>
+                        <sc:id>2050</sc:id>
+                        <o:bug>#owl</o:bug>
+                    </sc:issue>
+                    <sc:issue>
+                        <sc:id>2030</sc:id>
+                        <o:bug>#owl</o:bug>
+                    </sc:issue>
+                    <sc:issue>
+                        <sc:id>2040</sc:id>
+                        <o:bug>#owl</o:bug>
+                    </sc:issue>
                 </sc:issues>
-                <sc:issues>
-                    <sc:id>2050</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-                <sc:issues>
-                    <sc:id>2030</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-                <sc:issues>
-                    <sc:id>2040</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-            </sc:issues>
-        </ns1:eventData>
-    </ns1:payload>
+            </sc:recommendDeveloper>
+  		</ns1:eventData>
+	</ns1:payload>
 </ns1:event>

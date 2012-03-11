@@ -6,9 +6,9 @@
     xmlns:r1="http://www.alert-project.eu/rawevents-mailinglist" 
     xmlns:r2="http://www.alert-project.eu/rawevents-wiki"	
     xmlns:s="http://www.alert-project.eu/strevents-kesi" 
-    xmlns:sm="http://www.alert-project.eu/stardom" 
+    xmlns:sm="http://www.alert-project.eu/stardom"
     xmlns:sc="http://www.alert-project.eu/socrates"
-    xmlns:s1="http://www.alert-project.eu/strevents-keui"
+    xmlns:s1="http://www.alert-project.eu/strevents-keui" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://www.alert-project.eu/alert-root.xsd">
 	<ns1:head>
@@ -21,29 +21,24 @@
 			<ns1:startTime>10010</ns1:startTime>
 			<ns1:endTime>10010</ns1:endTime>
 			<!-- name of event -->
-			<ns1:eventName>issuesRecommended</ns1:eventName>
+			<ns1:eventName>requestIssuesRecommendation</ns1:eventName>
 			<ns1:eventId>5748</ns1:eventId>
-			<ns1:eventType>Reply</ns1:eventType>
+			<ns1:eventType>Request</ns1:eventType>
 		</ns1:meta>
-        <ns1:eventData>
-            <sc:issues>
-                <sc:issues>
-                    <sc:id>1010</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-                <sc:issues>
-                    <sc:id>2050</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-                <sc:issues>
-                    <sc:id>2030</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-                <sc:issues>
-                    <sc:id>2040</sc:id>
-                    <o:bug>#owl</o:bug>
-                </sc:issues>
-            </sc:issues>
-        </ns1:eventData>
-    </ns1:payload>
+		<ns1:eventData>
+            <sc:recommendIssues>
+                <sc:identities>
+                  <sc:identity>
+                      <sc:uuid>51d8ecec1d6ea40106c6c71ffed13547010870b0ab57fe396f5fbb124967e0eb</sc:uuid>
+                  </sc:identity>
+                  <sc:identity>
+                      <sc:uuid>51d8ecec1d6ea40106c6c71ffed13547010870b0ab57fe396f5fbb124967e0eb</sc:uuid>
+                  </sc:identity>
+                  <sc:identity>
+                      <sc:uuid>51d8ecec1d6ea40106c6c71ffed13547010870b0ab57fe396f5fbb124967e0eb</sc:uuid>
+                  </sc:identity>
+              </sc:identities>
+            </sc:recommendIssues>
+  		</ns1:eventData>
+	</ns1:payload>
 </ns1:event>
