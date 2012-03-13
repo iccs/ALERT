@@ -7,7 +7,7 @@
             <wsnt:NotificationMessage>
                 <wsnt:Topic/>
                 <wsnt:ProducerReference>
-                    <wsa:Address>http://www.alert-project.eu/socrates</wsa:Address>
+                    <wsa:Address>http://www.alert-project.eu/metadata</wsa:Address>
                 </wsnt:ProducerReference>
                 <wsnt:Message>
                     <ns1:event
@@ -23,7 +23,7 @@
                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                             xsi:schemaLocation="http://www.alert-project.eu/alert-root.xsd">
                         <ns1:head>
-                            <ns1:sender>SOCRATES</ns1:sender>
+                            <ns1:sender>MLSensor</ns1:sender>
                             <ns1:timestamp>10000</ns1:timestamp>
                             <ns1:sequencenumber>1</ns1:sequencenumber>
                         </ns1:head>
